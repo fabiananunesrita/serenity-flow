@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Flow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+
+body {
+    color: #333333;
+    background-color: #dff0fb;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #99cff3; 
+    overflow: hidden; 
+}
+
+.navbar a {
+    float: left; 
+    display: block; 
+    color: #333333; 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #aad8f5;
+    color: #333333; 
+}
+
+.plano {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(30% - 40px);
+    margin: 20px auto;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center; 
+}
+
+.plano h1, .plano h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.plano h3 {
+    font-size: 18px;
+}
+
+.plano ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plano ul li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .plano {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.btn {
+    background-color: #99cff3;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    display: inline-block;
+}
+
+.logo-img {
+    width: 350px; 
+    height: 300px; 
+    border-radius: 0%;
+    margin-right: 60px; 
+    float: left; 
+    display: block;
+    margin-top: 25px;
+    margin-left: 80px;
+
+}
+
+h1 {
+    text-align: center; 
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center; 
+    font-size: 40px;
+}
+
+li, h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: left; 
+    font-size: 30px;
+    margin-left: 65px;
+}
+
+.missao {
+    
+    padding: 20px;
+    width: calc(30% - 40px);
+    margin: 65px;
+    vertical-align: top;
+    text-align: center; 
+}
+
+.container {
+    display: flex;
+}
+
+.coluna {
+    flex: 1;
+    padding: 20px;
+    border: 0px solid #ccc;
+    margin-bottom: -200px;
+}
+
+.depoimentos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.depoimento {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 10% ;
+    width: 20%;;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.depoimento p {
+    margin-bottom: 20px;
+}
+
+.depoimento img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    }
+
+.instrutor {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    }
+
+.descricao {
+    flex: 1;
+    }
+
+.descricao p {
+    text-align: justify;
+    margin: 0;
+        }
+
+</style>
+
+<body>
+    <nav class="navbar">
+        <a href="#">Início</a>
+        <a href="#">Aulas Disponíveis</a>
+        <a href="#">Faça sua inscrição</a>
+        <a href="#">Nossos Instrutores</a>
+        <a href="#">Depoimentos</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <img class="logo-img" src="imagem-yoga.jpg">
+    <h2>Serenity Flow</h2>
+    <br>
+    <br>
+    <p>Encontre a serenidade dentro de si, respire profundamente, acalme a mente agitada <br> e permita que o fluxo da vida flua suavemente. Na quietude do momento presente, <br> descubra a verdadeira essência da yoga - uma jornada de paz interior e transformação.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h5>Aulas Disponíveis</h5>
+
+    <div class="plano">
+        <h1>Hatha Yoga</h1>
+        <ul>
+            <li>Aumento da consciência corporal</li>
+            <li>Melhora na flexibilidade</li>
+            <li>Redução do estresse</li>
+        </ul>
+        <button class="btn">Saiba Mais</button>
+    </div>
+    <div class="plano">
+        <h1>Vinyasa Yoga</h1>
+        <ul>
+            <li>Alívio da tensão muscular</li>
+            <li>Maior equilíbrio emocional</li>
+            <li>Melhora na postura</li>
+        </ul>
+        <button class="btn">Saiba Mais</button>
+    </div>
+    <div class="plano">
+        <h1>Yin Yoga</h1>
+        <ul>
+            <li>Melhora da saúde cardiovascular</li>
+            <li>Aumento da força muscular</li>
+            <li>Aumento da energia</li>
+        </ul>
+        <button class="btn">Saiba Mais</button>
+    </div>
+
+    <h5>Inscrição</h5>
+
+    <div class="plano">
+        <h1>Plano Anual</h1>
+        <h3>R$1.200,00</h3>
+        <ul>
+            <li>Acesso ao longo de um ano</li>
+            <li>Direcionamento personalizado</li>
+            <li>Aulas particulares ou em grupo</li>
+        </ul>
+        <button class="btn">Assinar</button>
+    </div>
+    <div class="plano">
+        <h1>Plano Trimestral</h1>
+        <h3>R$400,00</h3>
+        <ul>
+            <li>Acesso ao longo de 3 meses</li>
+            <li>Direcionamento personalizado</li>
+            <li>Aulas particulares ou em grupo</li>
+        </ul>
+        <button class="btn">Assinar</button>
+    </div>
+    <div class="plano">
+        <h1>Plano Mensal</h1>
+        <h3>R$150,00</h3>
+        <ul>
+            <li>Acesso ao longo de 1 mês</li>
+            <li>Práticas previamente estabelecidas</li>
+            <li>Aulas em grupo</li>
+        </ul>
+        <button class="btn">Assinar</button>
+    </div>
+
+    <button class="btn">Inscreva-se para uma aula experimental!</button>
+
+    <h5>Nossos Instrutores</h5>
+
+    <div class="container">
+        <div class="coluna">
+            <img src="instrutora.jpg" alt="Instrutora" class="instrutor">
+            <h1>Lívia Miyamoto</h1>
+            <p>Apaixonada pelas filosofias e práticas orientais, a instrutora traz consigo uma vasta experiência em yoga, adquirida ao longo de décadas de estudo e prática dedicada. Sua abordagem delicada e acolhedora cria um ambiente de muita tranquilidade em suas aulas, onde os alunos se sentem inspirados a explorar não apenas o físico, mas também o espiritual.</p>
+        </div>
+        <div class="coluna">
+            <img src="instrutor.jpg" alt="Instrutor" class="instrutor">
+            <h1>Pedro Oliveira</h1>
+            <p>Totalmente comprometido em trazer bem-estar e equilíbrio para seus alunos, Pedro é detentor de uma profunda conexão com a natureza e possui abordagem muito inclusiva em suas práticas. Seu estilo energético e cativante motiva os alunos a explorar seus limites físicos e alcançar um excelente estado de tranquilidade interior.</p>
+        </div>
+    </div>
+
+    <div class="missao">
+
+    </div>
+
+    <h5>Depoimentos</h5>
+
+    <div class="depoimentos">
+        <div class="depoimento">
+            <p>Desde que comecei a praticar yoga minha vida mudou completamente. Antes, eu vivia sobrecarregada pelo estresse do dia a dia, mas agora encontrei um refúgio de paz e equilíbrio. A dedicação dos instrutores e a atmosfera acolhedora me ajudaram a conectar mente, corpo e espírito. Sou imensamente grata por esta jornada.</p>
+            <img src="marina-costa.avif">
+            <h3>Marina Costa</h3>
+            <p>Empresária</p>
+        </div>
+        <div class="depoimento">
+            <p>O yoga sempre foi um mistério para mim, algo distante e inacessível. Porém, desde que entrei neste estúdio, percebi que é muito mais do que simplesmente fazer posturas. Aqui, aprendi a respirar, a me ouvir e a me respeitar. Cada aula é uma oportunidade de crescimento e autoconhecimento. Este lugar é verdadeiramente especial.</p>
+            <img src="camila-silva.jpg">
+            <h3>Camila Silva</h3>
+            <p>Advogada</p>
+        </div>
+        <div class="depoimento">
+            <p>Nunca imaginei que o yoga poderia ter um impacto tão profundo na minha vida. Após anos lidando com ansiedade e insônia, decidi experimentar uma aula neste estúdio. Hoje, não só durmo melhor, como também me sinto mais confiante e sereno. Recomendo a todos que buscam um caminho de bem-estar e harmonia interior.</p>
+            <img src="carlos-xavier.jpg">
+            <h3>Carlos Xavier</h3>
+            <p>Professor Universitário</p>
+        </div>
+    </div>
+
+        <p>Instagram: @serenity_flow_yoga</p>
+        <p>Telefone: (12) 34567-8910</p>
+
+</body>
+</html>
